@@ -826,7 +826,7 @@ a, a:hover {
   position: absolute;
   width: 22px;
   height: 42px;
-  bottom: 30px;
+  bottom: 50px;
   display: block;
   left: 50%;
   margin-left: -12px;
@@ -1251,6 +1251,7 @@ figure.dotted-bg:before {
   .gutter-v3 > [class*="col-"] {
     padding-right: 15px !important;
     padding-left: 15px !important;
+    width: 50%;
   }
 }
 
@@ -1289,6 +1290,7 @@ figure.dotted-bg:before {
   .gutter-isotope-item > [class*="col-"] {
     padding-right: 15px !important;
     padding-left: 15px !important;
+    position: absolute;
   }
 }
 

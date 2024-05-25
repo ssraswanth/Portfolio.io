@@ -5,6 +5,33 @@ AOS.init({
  	offset: -100
 });
 
+jQuery(document).ready(function($) {
+    $(".fancybox").fancybox({
+        fitToView: false,
+        maxWidth: "90%" // or whatever you need
+    });
+}); // ready
+
+$("[data-fancybox]").fancybox({
+	iframe: {
+	  css: {
+		width: '100%',
+		height: '100%'
+	  }
+	},
+	buttons: [
+	  'slideShow',
+	  'fullScreen',
+	  'thumbs',
+	  'close'
+	],
+	mobile: {
+	  clickSlide: "close",
+	  clickOutside: "close"
+	}
+  });
+  
+
 jQuery(function($) {
 	
 	'use strict';

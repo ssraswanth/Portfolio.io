@@ -122,8 +122,8 @@ a {
   z-index: 1002;
   width: 100%;
   top: 0; }
-  .unslate_co--site-nav .container {
-    position: relative; }
+ /* .unslate_co--site-nav .container {
+    position: relative; }*/
   .unslate_co--site-nav .site-logo {
     z-index: 99; }
     .unslate_co--site-nav .site-logo.pos-absolute {
@@ -545,7 +545,8 @@ a {
       z-index: -1; }
   .cover-v1 .container {
     z-index: 9;
-    position: relative; }
+    position: relative;
+  overflow-x: hidden; }
     .cover-v1 .container, .cover-v1 .container > .row {
       height: 100vh;
       min-height: 650px; }
